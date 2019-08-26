@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/exc_maincard"
+    style="@style/travelCard"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardMaxElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.widget.ImageView
+            android:id="@+id/excursionImage"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/excursionTitle"
+            style="@style/travelTitle"
+            android:text="Hello!" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/excursionDuration"
+                style="@style/travelDuration1"
+                android:text="Duration: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/excursionTitle"
+                card_view:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/duration"
+                style="@style/travelDuration11"
+                android:text="1 day "
+                app:layout_constraintStart_toEndOf="@+id/excursionDuration"
+                app:layout_constraintTop_toBottomOf="@+id/excursionTitle"
+                card_view:ignore="NotSibling" />
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

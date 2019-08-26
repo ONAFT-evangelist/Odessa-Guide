@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp"
+    app:cardMaxElevation="0dp"
+    style="@style/numberCard">
+
+    <LinearLayout style="@style/numberLinear">
+
+        <TextView
+            android:id="@+id/name"
+            android:textStyle="bold"
+            android:text="AppCompany name"
+            style="@style/numberCompany" />
+
+        <TextView
+            android:id="@+id/type"
+            android:text="Call type"
+            style="@style/numberCall" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/call"
+        android:text="+380635451138"
+        style="@style/numberContainer" />
+
+
+</android.support.v7.widget.CardView>

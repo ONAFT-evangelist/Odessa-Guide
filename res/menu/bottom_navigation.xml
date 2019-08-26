@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/places"
+        android:title="Places"
+        android:icon="@drawable/ic_places" />
+
+    <item
+        android:id="@+id/categories"
+        android:title="Excursions"
+        android:icon="@drawable/ic_adventure" />
+
+    <item
+        android:id="@+id/events"
+        android:title="Events"
+        android:icon="@drawable/ic_events" />
+
+    <item
+        android:id="@+id/other"
+        android:title="Other"
+        android:icon="@drawable/ic_other" />
+
+</menu>

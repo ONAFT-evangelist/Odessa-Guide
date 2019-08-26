@@ -1,0 +1,168 @@
+<resources>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    <!-- Light application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <!-- Dark application theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="primaryTextColor">#ffffff</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="secondaryTextColor">#ffffff</item>
+        <item name="primaryLightColor">#303030</item>
+        <item name="android:colorBackground">#212121</item>
+        <item name="cardbackground">#424242</item>
+        <item name="android:textColorSecondary">@color/text_color_secondary</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+
+    </style>
+
+    <style name="PrimaryFlatButton" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyCardViewStyle" parent="CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardMaxElevation">8dp</item>
+    </style>
+
+    <style name="travelCard">
+        <item name="android:background">#424242</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="travelDuration">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="travelTitle">
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="travelDescr">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="placeMain">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">#424242</item>
+    </style>
+
+    <style name="placeMainImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:contentDescription">@string/todo</item>
+    </style>
+
+    <style name="placeMainTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:textColor">@color/title_txt</item>
+    </style>
+
+    <style name="numberCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="numberLinear">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="numberContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="numberCompany">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="numberCall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="send_btn">
+        <item name="android:padding">7dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:drawableRight">@drawable/send_image</item>
+        <item name="android:background">@drawable/btn_back</item>
+    </style>
+
+    <style name="feedb_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:inputType">textAutoCorrect</item>
+        <item name="android:importantForAutofill">no</item>
+    </style>
+
+    <style name="feedb_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">113dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:elevation">1dp</item>
+    </style>
+
+    <style name="travelDuration1" parent="travelDuration">
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="travelDuration11" parent="travelDuration">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">68dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+</resources>

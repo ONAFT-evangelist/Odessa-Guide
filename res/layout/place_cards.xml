@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/place_card"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardMaxElevation="8dp"
+    android:layout_width="@dimen/_140sdp"
+    android:layout_height="@dimen/_90sdp"
+    style="@style/placeMain">
+
+    <ImageView
+        android:id="@+id/place_pic"
+        style="@style/placeMainImage" />
+    <TextView
+        android:id="@+id/place_title"
+        android:text="@string/title"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-black"
+        style="@style/placeMainTitle" />
+
+</android.support.v7.widget.CardView>

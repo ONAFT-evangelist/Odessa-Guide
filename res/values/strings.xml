@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Odessa Guide</string>
+    <string name="hello">Hello!</string>
+    <string name="expand_icon">expand_icon</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="todo">Place pic</string>
+    <string name="hint">Paste your feedback here</string>
+    <string name="feedback">Feedback       </string>
+    <string name="share_text">Thanks for sharing our app) Please rate us on Google Play)</string>
+    <string name="short_history_of_odessa">Short history of Odessa</string>
+    <string name="txt_story">Story Placeholder</string>
+    <string name="currency">currency</string>
+    <string name="result">result</string>
+    <string name="convert">CONVERT</string>
+    <string name="show_on_map">Show on map</string>
+    <string name="dssdsdsdsdsd">dssdsdsdsdsd</string>
+    <string-array name="currencies">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>UAH</item>
+        <item>RUB</item>
+    </string-array>
+
+</resources>

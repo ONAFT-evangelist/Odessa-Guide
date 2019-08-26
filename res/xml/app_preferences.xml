@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:title="Dark theme"/>
+    <ListPreference
+        android:title="Elments scale"/>
+    <EditTextPreference
+        android:title="Send feedback"/>
+
+
+</PreferenceScreen>
